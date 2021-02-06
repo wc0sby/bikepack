@@ -12,8 +12,47 @@ body{
   margin: 2% 10%;
 }
 
-#logo-name{
-  font-size: 2.5em;
-  font-weight: 500;
-  color: #1711118c;
+nav{
+  display: flex;
+  justify-content:space-between;
+}
+
+#logo{
+  height: 5%;
+  width: 5%;
+  filter: invert(25%) sepia(10%) saturate(275%) hue-rotate(32deg) brightness(94%) contrast(88%);
+  opacity: 65%;
+}
+
+#nav-links{
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+#nav-links li {
+  padding: 3% 6%;
+  color: rgb(57, 78, 4);
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+#info-container{
+  width: 35%;
+  height: 400px;
+  position:absolute;
+  top: 30%;
+}
+
+#header-name{
+  font-size: 3em;
+  font-weight: 700;
+  color: rgb(57, 78, 4);
+}
+
+#header-subtext{
+  font-size: 1.5em;
+  font-weight: 400;
+  color: rgba(68, 69, 64, 0.639);
+  padding: 2% 0%
 }
